@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* home page start */
+.container {
+  display: flex;
+  margin-top: 250px;
+}
+.fertilizer,
+.seeds,
+.pesticides {
+  height: 250px;
+  width: 270px;
+  border: 0px solid rgb(171, 126, 126);
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px gray;
+}
+.title {
+  text-align: center;
+  background-color: rgba(147, 188, 174, 0.455);
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  margin-top: 40px;
+  width: 100%;
+  top: 10px;
+}
+.container .fertilizer {
+  margin: 0px 150px;
+}
+.container .seeds {
+  margin-left: 60px;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/agro/background.jpg);
+}
+.pesticides {
+  background-image: url(/agro/agriculture-pesticides-labels-500x500.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.over {
+  background-color: rgba(83, 209, 226, 0.675);
+}
+.seeds {
+  background-image: url(/agro/5130.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fertilizer {
+  background-image: url(/agro/fertilizer-bags-1636607015-6072964.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seeds p,
+.fertilizer p,
+.pesticides p {
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 2rem;
+  height: 40px;
+}
+a {
+  text-decoration: none;
+}

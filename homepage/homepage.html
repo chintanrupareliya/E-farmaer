@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farmer Acedamy</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="navbar.css" />
+    <link
+      rel="website icon"
+      href="./Resource/android-chrome-192x192.png"
+      type="image/png"
+      sizes="32x32"
+    />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <header>
+      <nav id="navbar">
+        <div id="logo">
+          <img src="./Resource/logo.png" alt="e-farmer academy" />
+        </div>
+        <div class="item">
+          <ul>
+            <li class="item">
+              <a href="./homepage.html">
+                <i class="fa fa-home"></i>
+                home
+              </a>
+            </li>
+            <li class="item">
+              <a href="/de shceme/scheme.html">Gov. scheme</a>
+            </li>
+            <li class="item">
+              <a href="/tool/index.html">
+                <i class="fa-solid fa-tractor"></i>
+                Tools
+              </a>
+            </li>
+            <li class="item">
+              <a href="/agro/agro.html">
+                <i class="fa-solid fa-vial-circle-check"></i>
+                Agro
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" class="input" placeholder="Search..." />
+          <button class="btn">
+            <i class="fa fa-search"> </i>
+          </button>
+        </div>
+        <div class="login">
+          <ul>
+            <li class="login">
+              <a href="../login2/FRONTEND/login.html">
+                <i class="fa fa-user"></i>
+                <p class="user"></p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="logout">
+          <i class="fas fa-sign-out-alt logout1"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+    <div class="main">
+      <div class="image-containor">
+        <img src="./Resource/1.jpg" class="image" alt="1" />
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <div class="containor" id="products">
+        <div class="gov box">
+          <div class="img">
+            <img src="./Resource/gov schema.jpg" alt="" />
+          </div>
+          <h3>Goverment Schema</h3>
+          <div class="discription">
+            <p>you can know every single detail about government scheme</p>
+          </div>
+          <div class="btn2">
+            <a href="../de shceme/scheme.html">
+              <button onclick="">Know More</button></a
+            >
+          </div>
+        </div>
+        <div class="toos box">
+          <div class="img">
+            <img src="./Resource/tools.jpg" alt="" />
+          </div>
+          <h3>Tools</h3>
+          <div class="discription">
+            <p>
+              buy tools for farming for reasonable price here you can also get
+              subsidi on the tools
+            </p>
+          </div>
+          <div class="btn2">
+            <a href="../tool/index.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+        <div class="agro box">
+          <div class="img">
+            <img src="./Resource//agro.jpg" alt="" />
+          </div>
+          <h3>Agro</h3>
+          <div class="discription">
+            <p>
+              we also serve seed,pump,fertilizer etc.check them and buy them at
+              the lowest price
+            </p>
+          </div>
+          <div class="btn2">
+            <a href="../agro/agro.html"><button>Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Farmer Academy, your trusted source for all things related
+          to agriculture and farming. We are dedicated to providing valuable
+          information, resources, and insights to help farmers, enthusiasts, and
+          industry professionals succeed in the ever-evolving world of
+          agriculture.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="col1">
+          <h2>USEFUL LINKS</h2>
+          <a href="./homepage.html">Home</a>
+          <a href="#products">Products</a>
+          <a href="#about">About Us</a>
+          <a href="../login2/FRONTEND/login.html">Login</a>
+        </div>
+        <div class="col2">
+          <h3>NEWSLETTER</h3>
+          <form>
+            <input type="email" placeholder="your email Address" required />
+            <br />
+            <button type="submit">SUBSCRIBE NOW</button>
+          </form>
+        </div>
+        <div class="col3">
+          <h3>CONTACT</h3>
+          <p>
+            6,7 Ground Floor,Antillia dreams,<br />Opp White Stone,
+            Amroli-Chhaparabhatha Road,<br />
+            Variyav, Surat
+          </p>
+          <div class="socialmedia">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="homepage.js"></script>
+  </body>
+</html>

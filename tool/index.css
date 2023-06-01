@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* home page */
+
+/* ul{
+    background-color: rgb(17, 144, 17);
+  } */
+.tools .h1 {
+  text-align: center;
+  color: black;
+}
+.tools {
+  color: rgba(240, 248, 255, 0.705);
+  margin-top: 70px;
+}
+.tools .h2 {
+  color: black;
+  margin: 10px;
+}
+.list {
+  text-align: center;
+  margin-top: 10px;
+}
+#serve {
+  display: flex;
+  flex-direction: row;
+}
+
+#serve::before {
+  content: "";
+  position: absolute;
+  background: url("2.jpg") no-repeat center/cover;
+  height: 101%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#serve .box {
+  text-align: center;
+  color: #f44336;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0px 10px;
+  width: 33%;
+}
+
+#serve .box img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+#serve h2 {
+  color: black;
+}
+#serve p {
+  color: black;
+}
+#serve {
+  margin-left: 5px;
+}
+#p1 {
+  height: 20px;
+  width: 150px;
+  border: 2px solid black;
+  /* box-sizing: border-box; */
+  text-align: center;
+  margin-left: 130px;
+}
+#serve p #p1 {
+  color: black;
+  font-weight: 200;
+}
+span #p1 {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+#serve #p2 {
+  color: rgba(240, 248, 255, 0.705);
+  margin-top: 30px;
+}
+.pera1 {
+  margin: 10px;
+}
+#serve span {
+  height: 400px;
+  width: 300px;
+}
+#serve .box {
+  width: 270px;
+}
+.ser2 {
+  margin-top: 20px;
+}
+span {
+  height: 350px;
+}
+span h2 {
+  font-size: 15px;
+}
+span img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+body {
+  background-color: teal;
+}
