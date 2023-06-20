@@ -78,6 +78,7 @@ body {
 .login ul {
   position: absolute;
   right: 60px;
+  display: flex;
   margin-top: -23px;
 }
 #navbar ul li {
@@ -98,12 +99,19 @@ body {
 }
 .login ul li a {
   color: black;
-  display: block;
-  padding: 5px 50px 5px 20px;
+  display: flex;
+  padding: 10px 0px 8px 0px;
   text-decoration: none;
   border-radius: 20px;
   text-align: center;
-  width: 81px;
+  justify-content: center;
+  width: 167px;
+  height: 30px;
+}
+.login ul li a img {
+  margin: 0px 9px;
+  height: 32px;
+  border-radius: 10px;
 }
 #navbar ul li a:hover {
   color: white;

@@ -92,12 +92,15 @@ footer {
   text-align: center;
   display: flex;
 }
+
 img.image {
-  object-fit: fill;
   height: 500px;
   width: 1000px;
   border-radius: 20px;
   object-fit: cover;
+  transform: translateX(1000px);
+  transform: translateX(0px);
+  transition: transform 1s;
 }
 .dots {
   position: absolute;
